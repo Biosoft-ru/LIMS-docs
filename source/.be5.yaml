@@ -1,0 +1,5 @@
+diagrams:
+  - devices:
+      tables: [devices, device_types, device_statuses]
+
+  

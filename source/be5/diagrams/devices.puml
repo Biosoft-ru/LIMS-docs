@@ -1,0 +1,42 @@
+   hide circle
+   skinparam linetype ortho
+
+   entity "devices" as devices{
+     --
+     *id : INT
+     sn : VARCHAR(100)
+     title : TEXT
+     typeID : INT
+     tocken : VARCHAR(100)
+     statusID : INT
+     stats : JSON
+     creationdate___ : TIMESTAMP
+     modificationdate___ : TIMESTAMP
+     whoinserted___ : VARCHAR(100)
+     whomodified___ : VARCHAR(100)
+    }
+
+   entity "device_types" as device_types{
+     --
+     *id : INT
+     name : VARCHAR(100)
+     description : TEXT
+     creationdate___ : TIMESTAMP
+     modificationdate___ : TIMESTAMP
+     whoinserted___ : VARCHAR(100)
+     whomodified___ : VARCHAR(100)
+    }
+
+   entity "device_statuses" as device_statuses{
+     --
+     *id : INT
+     name : VARCHAR(100)
+     description : TEXT
+     creationdate___ : TIMESTAMP
+     modificationdate___ : TIMESTAMP
+     whoinserted___ : VARCHAR(100)
+     whomodified___ : VARCHAR(100)
+    }
+
+   devices }o..|| device_types
+   devices }o..|| device_statuses
