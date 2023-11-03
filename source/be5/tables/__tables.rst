@@ -19,6 +19,7 @@
   languages.rst
   mimeTypes.rst
   persistent_logins.rst
+  projects.rst
   provinces.rst
   sample_templates.rst
   samples.rst

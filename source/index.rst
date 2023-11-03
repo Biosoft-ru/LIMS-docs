@@ -9,6 +9,7 @@ LIMS
    architecture.rst
    structure.rst
    devices.rst
+   samples.rst
    
    be5/tables/__tables.rst
                             

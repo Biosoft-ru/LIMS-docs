@@ -2,8 +2,6 @@
 =======
 
 .. kroki::  ./be5/diagrams/devices.puml png
-   :caption: Приборы
-
  
 Описание таблиц
 ---------------

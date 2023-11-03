@@ -1,6 +1,8 @@
 samples
 =======
 
+Образцы
+  Отдельные образцы для секвинирования. За основу взяты поля Illumina.
 
 .. list-table::
    :header-rows: 1
@@ -75,6 +77,8 @@ samples
      - VARCHAR(100)
 
        can be null
+
+       Reference: projects
      - 
 
    * - file_path
