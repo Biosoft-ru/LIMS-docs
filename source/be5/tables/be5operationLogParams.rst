@@ -23,9 +23,10 @@ Parameters of Operation Logs
      - 
 
    * - type
-     - ENUM('context','input','session')
-
-       Defult value: 'input'
+     - ENUM: 
+        * context
+        * input
+        * session
      - 
 
    * - paramName

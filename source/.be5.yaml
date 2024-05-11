@@ -3,5 +3,9 @@ diagrams:
       tables: [devices, device_types, device_statuses]
   - samples:
       tables: [samples, projects]
+  - nextflow:
+      tables: [nf_workflows, nf_heartbeat]
+
+nested_tables: [devices, device_types, device_statuses, samples, projects, nf_workflows, nf_heartbeat]
 
   

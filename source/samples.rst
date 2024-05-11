@@ -6,7 +6,7 @@
 Описание таблиц
 ---------------
             
-.. include:: ./be5/tables/projects.rst
+.. include:: ./be5/tables/projects.rstincl
 
-.. include:: ./be5/tables/samples.rst
+.. include:: ./be5/tables/samples.rstincl
  

@@ -79,14 +79,17 @@ Column settings
      - 
 
    * - sort
-     - ENUM('ASC','DEFAULT','DESC')
-
-       Defult value: 'DEFAULT'
+     - ENUM: 
+        * ASC
+        * DEFAULT
+        * DESC
      - 
 
    * - aggregate
-     - ENUM('AVG','COUNT','DEFAULT','SUM')
-
-       Defult value: 'DEFAULT'
+     - ENUM: 
+        * AVG
+        * COUNT
+        * DEFAULT
+        * SUM
      - 
 

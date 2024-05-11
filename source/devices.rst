@@ -6,8 +6,8 @@
 Описание таблиц
 ---------------
   
-.. include:: ./be5/tables/devices.rst
+.. include:: ./be5/tables/devices.rstincl
              
-.. include:: ./be5/tables/device_types.rst
+.. include:: ./be5/tables/device_types.rstincl
  
-.. include:: ./be5/tables/device_statuses.rst
+.. include:: ./be5/tables/device_statuses.rstincl

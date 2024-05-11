@@ -39,7 +39,15 @@ Events
      - 
 
    * - action
-     - ENUM('logging','operation','other','print','process','query','queryBuilder','servlet')
+     - ENUM: 
+        * logging
+        * operation
+        * other
+        * print
+        * process
+        * query
+        * queryBuilder
+        * servlet
      - 
 
    * - entity

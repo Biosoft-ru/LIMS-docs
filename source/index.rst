@@ -10,6 +10,8 @@ LIMS
    structure.rst
    devices.rst
    samples.rst
-   
+
+   nextflow.rst
+      
    be5/tables/__tables.rst
                             
